@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.inconsolata-font {
+    font-family: 'Inconsolata', monospace;
+}
+
+input, button, textarea {
+    font-family: 'Inconsolata', monospace;
+}
+
+.has-whitesmoke-bg {
+    background-color: whitesmoke;
+}
+
+.contact-sidebar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 40%;
+    right: 0px;
+    z-index: 100;
+}
+
+.contact-sidebar > a > img {
+    width: 30px;
+    height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-sidebar {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        bottom: 0;
+        top: 94%;
+        z-index: 100;
+    }
+
+    .contact-sidebar > a{
+        width: 50%;
+        width: 50%;
+    }
+
+    .contact-sidebar > a > img {
+        width: 30px;
+        height: 30px;
+    }
+}
