@@ -20,9 +20,9 @@ input, button, textarea {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 40%;
+    top: 50%;
     right: 0px;
-    z-index: 100;
+    z-index: 10;
 }
 
 .contact-sidebar > a > img {
@@ -38,12 +38,11 @@ input, button, textarea {
         position: fixed;
         bottom: 0;
         top: 94%;
-        z-index: 100;
+        z-index: 10;
     }
 
     .contact-sidebar > a{
-        width: 50%;
-        width: 50%;
+        width: 100%
     }
 
     .contact-sidebar > a > img {
