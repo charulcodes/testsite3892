@@ -10,15 +10,15 @@
 </head>
 <body class="inconsolata-font has-whitesmoke-bg">
 <div class="contact-sidebar">
-    <a class="button is-link is-light mb-2" href="mailto:someone@yoursite.com"><img src="assets/envelope.svg"></a>
-    <a class="button is-primary is-light" href="https://wa.me/919664252500"><img src="assets/whatsapp.svg"></a>
+    <a class="button has-background-success-dark has-text-white mb-2" href="#contact"><img src="assets/envelope_white.svg" class="mr-3"></a>
+    <!-- <a class="button is-primary is-light" href="https://wa.me/9664252500"><img src="assets/whatsapp.svg"></a> -->
 </div>
 <div id="top" class="container is-max-widescreen">
     <header class="section">
         <h1 class="title is-1 has-text-centered">Company Name</h1>
     </header>
     
-    <nav class="navbar has-whitesmoke-bg is-light" role="navigation" aria-label="main navigation">
+    <nav class="navbar has-whitesmoke-bg is-light has-text-bold" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
@@ -27,38 +27,38 @@
             </a>
         </div>
         
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div id="navbarBasicExample" class="navbar-menu is-size-5">
             <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-                <a class="navbar-item" href="#top">Home</a>
+                <a class="navbar-item mx-6" href="#top">Home</a>
             
-                <div class="navbar-item has-dropdown is-hoverable">
+                <div class="navbar-item has-dropdown is-hoverable mx-6">
                     <a class="navbar-link">Services</a>
             
-                    <div class="navbar-dropdown is-hidden-mobile">
-                    <a class="navbar-item">Service 1</a>
-                    <a class="navbar-item">Service 2</a>
-                    <a class="navbar-item">Service 3</a>
-                    <a class="navbar-item">Service 4</a>
+                    <div class="navbar-dropdown is-hidden-mobile is-size-5-desktop">
+                    <a class="navbar-item" href="#service1">Service 1</a>
+                    <a class="navbar-item" href="#service2">Service 2</a>
+                    <a class="navbar-item" href="#service3">Service 3</a>
+                    <a class="navbar-item" href="#service4">Service 4</a>
                     </div>
                 </div>
 
-                <a class="navbar-item" href="#faq-section">FAQ</a>
+                <a class="navbar-item mx-6" href="#faq">FAQ</a>
 
-                <div class="navbar-item has-dropdown is-hoverable">
+                <div class="navbar-item mx-6 has-dropdown is-hoverable">
                 <a class="navbar-link">Consultation</a>
         
-                    <div class="navbar-dropdown is-hidden-mobile">
-                        <a class="navbar-item">Wills</a>
-                        <a class="navbar-item">Affidavit</a>
-                        <a class="navbar-item">Cyber Crime</a>
-                        <a class="navbar-item">Civil Matters</a>
-                        <a class="navbar-item">Criminal Matters</a>
-                        <a class="navbar-item">Others</a>
-                        <a class="navbar-item">Agreements</a>
+                    <div class="navbar-dropdown is-hidden-mobile is-size-5-desktop">
+                        <a class="navbar-item" href="#wills">Wills</a>
+                        <a class="navbar-item" href="#affidavit">Affidavit</a>
+                        <a class="navbar-item" href="#cyber-crime">Cyber Crime</a>
+                        <a class="navbar-item" href="#civil-matters">Civil Matters</a>
+                        <a class="navbar-item" href="#criminal-matters">Criminal Matters</a>
+                        <a class="navbar-item" href="#others">Others</a>
+                        <a class="navbar-item" href="#agreements">Agreements</a>
                     </div>
                 </div>
 
-                <a class="navbar-item" href="#contact-section">Contact</a>
+                <a class="navbar-item mx-6" href="#contact">Contact</a>
 
             </div>
         </div>
@@ -74,7 +74,41 @@
         </p>
     </main>
 
-    <section id="faq-section" class="section box mx-2 my-5">
+    <section class="section box mx-2 my-5">
+        <h2 class="title is-2">Services</h2>
+          <section class="columns is-multiline">
+            <div id="service1" class="my-1 column is-half">
+                <h3 class="subtitle is-3">Service 1</h3>
+                <p class="mb-3">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div id="service2" class="my-1 column is-half">
+                <h3 class="subtitle is-3">Service 2</h3>
+                <p class="mb-3">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div id="service3" class="my-1 column is-half">
+                <h3 class="subtitle is-3">Service 3</h3>
+                <p class="mb-3">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div id="service4" class="my-1 column is-half">
+                <h3 class="subtitle is-3">Service 4</h3>
+                <p class="mb-3">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+          </section>
+    </section>
+
+    <section id="faq" class="section box mx-2 my-5">
         <h1 class="title is-2">FAQs</h1>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -84,51 +118,129 @@
         </p>
     </section>
 
-    <section id="contact-section" class="section"> 
+    <section class="section box mx-2 my-5">
+        <h2 class="title is-2">Consultation</h2>
+          <section class="columns is-multiline">
+              <div id="wills" class="my-1 column is-half">
+                  <h3 class="subtitle is-3">Wills</h3>
+                  <p class="mb-3">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+              </div>
+              <div id="affidavit" class="my-1 column is-half">
+                <h3 class="subtitle is-3">Affidavit</h3>
+                <p class="mb-3">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div id="cyber-crime" class="my-1 column is-half">
+                <h3 class="subtitle is-3">Cyber Crime</h3>
+                <p class="mb-3">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div id="civil-matters" class="my-1 column is-half">
+                <h3 class="subtitle is-3">Civil Matters</h3>
+                <p class="mb-3">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div id="criminal-matters" class="my-1 column is-half">
+                <h3 class="subtitle is-3">Criminal Matters</h3>
+                <p class="mb-3">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div id="agreements" class="my-1 column is-half">
+                <h3 class="subtitle is-3">Agreements</h3>
+                <p class="mb-3">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div id="others" class="my-1 column is-half">
+                <h3 class="subtitle is-3">Others</h3>
+                <p class="mb-3">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+          </section>
+    </section>
+
+    <section id="contact" class="section"> 
         <h1 class="title is-2 has-text-centered">Contact us</h1>
-        <label class="label is-size-5">Your Full Name</label>
-        <div class="field is-grouped">
-            <div class="control is-expanded">
-                <input class="input" type="text" placeholder="First Name">
+        <form>
+            <label class="label is-size-5">Your Full Name</label>
+            <div class="field is-grouped">
+                <div class="control is-expanded">
+                    <input class="input" type="text" placeholder="First Name">
+                </div>
+                <div class="control is-expanded">
+                    <input class="input" type="text" placeholder="Last Name">
+                </div>
             </div>
-            <div class="control is-expanded">
-                <input class="input" type="text" placeholder="Last Name">
+            <div class="field">
+                <label class="label is-size-5">Email ID:</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Email ID">
+                </div>
             </div>
-        </div>
-        <div class="field">
-            <label class="label is-size-5">Email ID:</label>
-            <div class="control">
-                <input class="input" type="text" placeholder="Email ID">
+            <div class="field">
+                <label class="label is-size-5">Phone number:</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Phone number">
+                </div>
             </div>
-        </div>
-        <div class="field">
-            <label class="label is-size-5">Phone number:</label>
-            <div class="control">
-                <input class="input" type="text" placeholder="Phone number">
+            <div class="field">
+                <label class="label is-size-5">Please tell us about your case:</label>
+                <div class="control">
+                    <textarea class="textarea" placeholder="Your message here"></textarea>
+                </div>
             </div>
-        </div>
-        <div class="field">
-            <label class="label is-size-5">Please tell us about your case:</label>
-            <div class="control">
-                <textarea class="textarea" placeholder="Your message here"></textarea>
+            <div class="field is-flex is-justify-content-center mt-5">
+                <div class="control">
+                    <input class="button has-background-success-dark has-text-white is-size-5" type="submit" value="Submit">
+                </div>
             </div>
-        </div>
-        <div class="field is-flex is-justify-content-center mt-5">
-            <div class="control">
-                <input class="button is-dark" type="submit" value="Submit">
-            </div>
-        </div>
+        </form>
         
+        <p class="has-text-centered is-size-5 py-6">Or email us at <b>someone@somesite.com</b></p>
 
     </section>
 
-    <footer class="footer has-whitesmoke-bg has-text-centered">
-        <p class="is-centered">© 2020-2021 Company Name</p>
-    </footer>
-
-    <script src="index.js"></script>
-    <script src="validations.js"></script>
 </div>
 
+<footer class="footer has-background-dark has-text-centered">
+    <p class="is-centered has-text-white">© 2020-2021 Company Name</p>
+</footer>
+
+<div id="disclaimer-modal" class="modal is-active">
+    <div class="modal-background"></div>
+    <div class="modal-content box">
+      <h1 class="title is-3">Disclaimer</h1>
+      <p class="has=text-justified">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <button class="button my-3 has-background-success-dark has-text-white" onclick="toggleDisclaimer();">I Agree</button>
+    </div>
+</div>
+
+  <script src="index.js"></script>
+  <script src="validations.js"></script>
 </body>
 </html>
