@@ -37,3 +37,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
  });
+
+function toggleDisclaimer() {
+  const modal = document.querySelector('#disclaimer-modal');
+  console.log(modal);
+  modal.classList.toggle('is-active');
+}
