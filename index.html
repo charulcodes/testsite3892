@@ -9,10 +9,15 @@
     <title>Company Name</title>
 </head>
 <body class="inconsolata-font has-whitesmoke-bg">
+
 <div class="contact-sidebar">
-    <a class="button has-background-success-dark has-text-white mb-2" href="#contact"><img src="assets/envelope_white.svg" class="mr-3"></a>
+    <a class="button has-background-success-dark has-text-white mb-2" href="#contact"><img src="assets/envelope-white.svg" class="mr-2"></a>
     <!-- <a class="button is-primary is-light" href="https://wa.me/9664252500"><img src="assets/whatsapp.svg"></a> -->
 </div>
+<div class="back-to-top">
+    <a class="button is-dark" href="#top"><img src="assets/angle-up-white.svg" class=""></a>
+</div>
+
 <div id="top" class="container is-max-widescreen">
     <header class="section">
         <h1 class="title is-1 has-text-centered">Company Name</h1>
@@ -32,13 +37,13 @@
                 <a class="navbar-item mx-6" href="#top">Home</a>
             
                 <div class="navbar-item has-dropdown is-hoverable mx-6">
-                    <a class="navbar-link">Services</a>
+                    <a class="navbar-link is-light">Services</a>
             
-                    <div class="navbar-dropdown is-hidden-mobile is-size-5-desktop">
-                    <a class="navbar-item" href="#service1">Service 1</a>
-                    <a class="navbar-item" href="#service2">Service 2</a>
-                    <a class="navbar-item" href="#service3">Service 3</a>
-                    <a class="navbar-item" href="#service4">Service 4</a>
+                    <div class="navbar-dropdown is-hidden-mobile is-size-5">
+                        <a class="navbar-item" href="#service1">Service 1</a>
+                        <a class="navbar-item" href="#service2">Service 2</a>
+                        <a class="navbar-item" href="#service3">Service 3</a>
+                        <a class="navbar-item" href="#service4">Service 4</a>
                     </div>
                 </div>
 
@@ -216,23 +221,34 @@
 
 </div>
 
-<footer class="footer has-background-dark has-text-centered">
-    <p class="is-centered has-text-white">© 2020-2021 Company Name</p>
+<footer class="footer has-text-centered has-whitesmoke-bg">
+    <p class="is-centered has-text-black">© 2020-2021 Company Name</p>
 </footer>
 
 <div id="disclaimer-modal" class="modal is-active">
     <div class="modal-background"></div>
-    <div class="modal-content box">
-      <h1 class="title is-3">Disclaimer</h1>
-      <p class="has=text-justified">
+    <div class="modal-card">
+    <header class="modal-card-head">
+        <h1 class="title is-3">Disclaimer</h1>
+    </header>
+    <section class="modal-card-body">
+      <p class="has-text-justified">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum ut aliquip ex ea commodo consequat.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
-      <button class="button my-3 has-background-success-dark has-text-white" onclick="toggleDisclaimer();">I Agree</button>
+    </section>
+      <footer class="modal-card-foot">
+        <button class="button my-3 has-background-success-dark has-text-white" onclick="toggleDisclaimer();">I Agree</button>
+      </footer>
+      
     </div>
 </div>
 
